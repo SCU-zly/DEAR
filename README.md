@@ -4,7 +4,7 @@
 
 ## 📄 Paper Title
 **Mitigating Entity Hallucinations in 3D Radiology Report Generation via Dual-Stream Alignment**  
-*Accepted to AAAI 2026 (under review)*
+*Accepted to AAAI 2026 (Camera Ready)*
 
 ## 🧠 Abstract
 Entity hallucination poses a major challenge in radiology report generation (RRG), particularly for 3D CT scans where complex spatial contexts amplify factual errors.  
