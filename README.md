@@ -13,7 +13,7 @@ Current methods use unified cross-attention for volume–phrase alignment, faili
 
 In this work, we introduce the **Dual-stream Entity Alignment Reporting network (DEAR)** that separately models organ and lesion entities to resolve anatomical bias. Specifically, the dual-stream entity aligner partitions medical entity phrases into organ and lesion streams, feeding them into separate cross-attention blocks to achieve fine-grained volume–phrase alignment.
 
-- For structurally regular and spatially stable **organ** entities, we propose **Organ-Guided Cross-Attention (OGCA)** to enforce structural consistency by retrieving top-$k$ voxel tokens via similarity and preserving spatial connectivity through morphological dilation.
+- For structurally regular and spatially stable **organ** entities, we propose **Organ-Guided Cross-Attention (OGCA)** to enforce structural consistency by retrieving top-*k* voxel tokens via similarity and preserving spatial connectivity through morphological dilation.
 - For structurally irregular and spatially variable **lesion** entities, we introduce **Lesion-Guided Cross-Attention (LGCA)** to enhance anomaly sensitivity via phrase-weighted attention and refine lesion boundaries using 3D residual Laplacian filtering.
 
 🧪 Experimental results demonstrate that DEAR significantly reduces entity hallucinations and improves clinical factuality on 3D RRG benchmarks.
